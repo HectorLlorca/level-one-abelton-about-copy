@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import styles from '../main header/mainHeader.module.css'
+import styles from './mainHeader.module.css'
 import flower from '../../../public/flower.jpg'
 
 
