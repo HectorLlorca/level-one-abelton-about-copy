@@ -1,0 +1,1 @@
+(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[655],{7655:function(n){n.exports={container:"infoSection_container__IDkSe",info_container:"infoSection_info_container__3JOvG",info_title:"infoSection_info_title__iiH_7",info_text:"infoSection_info_text__dCpOl",img_container:"infoSection_img_container__hx_wC"}}}]);
