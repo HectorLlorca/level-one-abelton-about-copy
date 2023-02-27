@@ -23,8 +23,8 @@ export default function InfoSection() {
 
                 </div>
                 <div>
-                    <Image className={styles.img} src={mano_flores} />
 
+                    <Image className={styles.img} src={mano_flores} />
                 </div>
             </div>
 
