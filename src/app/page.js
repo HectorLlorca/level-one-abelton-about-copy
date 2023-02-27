@@ -1,6 +1,6 @@
 import InfoSection from "@/components/infoSection/infoSection";
 import MainHeader from "@/components/main header/mainHeader";
-import styles from './page.module.css'
+import styles from './paage.module.css'
 
 
 export default function Home() {
