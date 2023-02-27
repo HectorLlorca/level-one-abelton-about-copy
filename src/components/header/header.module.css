@@ -1,0 +1,53 @@
+.header {
+    display: flex;
+    height: 75px;
+    gap: 2rem;
+    padding: 0 2rem;
+    background-color: var(--section-background-color);
+
+}
+
+.burguers {
+    margin: auto 0;
+}
+
+.burguer {
+    object-fit: cover;
+
+}
+
+.burguer_two {
+    rotate: 90deg;
+    margin-left: -10px;
+
+}
+
+.navigation {
+    display: flex;
+    font-weight: 600;
+    flex: 1;
+}
+
+.navigation_ul {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.sesion {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    font-weight: 700;
+}
+
+@media (prefers-color-scheme: dark) {
+    .burguer {
+        filter: invert(94%) sepia(94%) saturate(0%) hue-rotate(154deg) brightness(107%) contrast(106%);
+    }
+
+    .header {
+        background-color: var(--section-background-color);
+    }
+}

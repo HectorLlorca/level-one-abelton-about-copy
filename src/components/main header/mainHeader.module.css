@@ -1,0 +1,27 @@
+.container {
+    display: grid;
+    gap: 2rem;
+}
+
+.nav {
+    display: flex;
+    gap: 2rem;
+    padding: 2rem 2rem 0 2rem;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.img_container {
+    display: flex;
+    justify-content: center;
+}
+
+.big_img {
+    width: 85%;
+    height: 80svh;
+    object-fit: cover;
+}
+
+
+
+@media (prefers-color-scheme: dark) {}
