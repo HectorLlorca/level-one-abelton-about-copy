@@ -1,6 +1,7 @@
 import Header from '@/components/header/header'
 import '../styles/globals.css'
 import { Montserrat } from '@next/font/google'
+import Footer from '@/components/footer/footer'
 
 const montserrat = Montserrat({
   weights: [400, 500, 600, 700],
@@ -19,6 +20,7 @@ export default function RootLayout({ children }) {
       <body>
         <Header />
         {children}
+        <Footer />
       </body>
 
 

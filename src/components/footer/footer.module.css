@@ -1,0 +1,24 @@
+.footer {
+    display: grid;
+    gap: 2rem;
+    padding: 3rem;
+    background-color: var(--section-background-color);
+}
+
+.footer h1 {
+    font-size: var(--font-size-xl);
+    font-weight: 500;
+}
+
+.footer_section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_section1 {
+    margin-top: 2rem;
+}
+
+.footer_section2 {}
+
+.footer_section3 {}

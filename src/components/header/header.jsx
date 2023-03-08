@@ -7,8 +7,8 @@ export default function Header() {
     return (
         <header className={styles.header}>
             <div className={styles.burguers}>
-                <Image className={styles.burguer} src={burguer} height={30} width={50}></Image>
-                <Image className={`${styles.burguer} ${styles.burguer_two}`} src={burguer} height={30} width={50}></Image>
+                <Image alt="" className={styles.burguer} src={burguer} height={30} width={50}></Image>
+                <Image alt="" className={`${styles.burguer} ${styles.burguer_two}`} src={burguer} height={30} width={50}></Image>
             </div>
             <div className={styles.navigation}>
                 <ul className={styles.navigation_ul}>

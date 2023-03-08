@@ -1,13 +1,12 @@
 :root {
   --max-width: 1100px;
   --border-radius: 12px;
-  --font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
-    'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',
-    'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
+  --font-mono: ui-monospace, Menlo, Monaco, "Cascadia Mono", "Segoe UI Mono",
+    "Roboto Mono", "Oxygen Mono", "Ubuntu Monospace", "Source Code Pro",
+    "Fira Mono", "Droid Sans Mono", "Courier New", monospace;
   --foreground-rgb: 0, 0, 0;
-  --background-color: #F3F3F3;
+  --background-color: #f3f3f3;
   --section-background-color: white;
-
 
   --font-size-sm: clamp(0.8rem, 0.17vw + 0.76rem, 0.89rem);
   --font-size-base: clamp(1rem, 0.34vw + 0.91rem, 1.19rem);
@@ -16,7 +15,6 @@
   --font-size-xl: clamp(1.95rem, 1.56vw + 1.56rem, 2.81rem);
   --font-size-xxl: clamp(2.44rem, 2.38vw + 1.85rem, 3.75rem);
   --font-size-xxxl: clamp(3.05rem, 3.54vw + 2.17rem, 5rem);
-
 }
 
 @media (prefers-color-scheme: dark) {
@@ -25,7 +23,6 @@
     --foreground-rgb: 255, 255, 255;
     --section-background-color: #191919;
   }
-
 }
 
 * {
@@ -34,20 +31,19 @@
   margin: 0;
 }
 
-html,
-body {
-  max-width: 95vw;
-  overflow-x: hidden;
+html {
+  width: 95svw;
   margin: auto;
 }
 
 body {
+  max-width: 100rem;
+  overflow-x: hidden;
+  margin: auto;
   display: grid;
   color: rgb(var(--foreground-rgb));
   gap: 0.2rem;
   background-color: var(--background-color);
-
-
 }
 
 a {
@@ -57,9 +53,7 @@ a {
 
 ul {
   list-style: none;
-
 }
-
 
 @media (prefers-color-scheme: dark) {
   html {
@@ -69,5 +63,4 @@ ul {
   html {
     background-color: var(--background-color);
   }
-
 }

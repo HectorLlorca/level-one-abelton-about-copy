@@ -13,9 +13,8 @@ export default function MainHeader() {
                 <Link href={''}>Apprenticeships</Link>
             </div>
             <div className={styles.img_container}>
-                <Image className={styles.big_img} src={flower} />
+                <Image alt='' className={styles.big_img} src={flower} />
             </div>
-
         </div>
 
     )

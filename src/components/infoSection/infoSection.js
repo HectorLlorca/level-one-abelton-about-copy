@@ -19,12 +19,12 @@ export default function InfoSection() {
             </div>
             <div className={styles.img_container}>
                 <div>
-                    <Image className={styles.img} src={girasol} />
+                    <Image alt='' className={styles.img} src={girasol} />
 
                 </div>
                 <div>
 
-                    <Image className={styles.img} src={mano_flores} />
+                    <Image alt='' className={styles.img} src={mano_flores} />
                 </div>
             </div>
 

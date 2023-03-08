@@ -1,27 +1,29 @@
 .container {
-    display: grid;
-    gap: 2rem;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 2rem;
 }
 
 .nav {
-    display: flex;
-    gap: 2rem;
-    padding: 2rem 2rem 0 2rem;
-    font-size: 0.8rem;
-    font-weight: 600;
+  display: flex;
+  gap: 2rem;
+  padding: 2rem 2rem 0 2rem;
+  font-size: 0.8rem;
+  font-weight: 600;
 }
 
 .img_container {
-    display: flex;
-    justify-content: center;
+  display: grid;
+  place-items: center;
+  grid-template-columns: minmax(0, 1fr);
+  grid-template-rows: 75svh;
 }
 
 .big_img {
-    width: 85%;
-    height: 80svh;
-    object-fit: cover;
+  width: 95%;
+  height: 90%;
+  object-fit: cover;
 }
 
-
-
-@media (prefers-color-scheme: dark) {}
+@media (prefers-color-scheme: dark) {
+}

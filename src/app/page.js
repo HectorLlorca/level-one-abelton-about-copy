@@ -9,6 +9,7 @@ export default function Home() {
       <MainHeader />
       <InfoSection />
 
+
     </main>
   )
 }
